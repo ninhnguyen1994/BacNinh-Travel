@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="visit Bac Ninh : The Official Tourism Website of BacNinh-VietNam ">
+    <meta name="keywords" content="du lich bac ninh, bac ninh travel, le hoi bac ninh, con nguoi bac ninh">
+    <title>Bac Ninh | Travel</title>
+    <!-- swipper slide cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font-awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- link css file -->
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+
+<body>
+    <!-- header nav -->
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="./index.html" class="logo"><img src="./image/logo.png" alt="logo"></a>
+
+        <nav class="navbar">
+            <a href="./home.html">Trang chủ</a>
+            <a href="#">Du lịch</a>
+            <a href="#">Văn hoá</a>
+            <a href="#">Ẩm thực</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-envelope-open-text" id="login-btn"></i>
+        </div>
+
+        <form action="#" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="Tìm kiếm ...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+    <!-- end header-nav -->
+
+    <!-- login form container -->
+
+
+    <div class="login-form-container">
+
+        <i class="fas fa-times" id="form-close"></i>
+
+        <form action="">
+            <h3>Đăng ký nhận thông tin</h3>
+            <p>Nếu có bất kì thắc mắc nào cần tư vấn hãy liên hệ với chúng tôi ngay nhé !</p>
+            <input type="text" class="box" placeholder="Họ và tên..">
+            <input type="email" class="box" placeholder="Email của bạn...">
+            <input type="submit" value="Đăng ký" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">đồng ý</label>
+        </form>
+
+    </div>
+    <section class="home" id="home">
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="image/videos/phattich.mov"></span>
+            <span class="vid-btn" data-src="image/videos/tpbn.mov"></span>
+            <span class="vid-btn" data-src="image/videos/nnbn.mov"></span>
+            <span class="vid-btn" data-src="image/videos/thonque.mov"></span>
+            <span class="vid-btn" data-src="image/videos/qc.mov"></span>
+        </div>
+
+        <div class="video-container">
+            <video src="image/videos/qc.mov" id="video-slider" loop autoplay muted></video>
+        </div>
+
+    </section>
+
+    <!-- gallery -->
+
+    <section class="gallery" id="gallery">
+        <h1 class="heading">
+            <span>giới</span>
+            <span>thiệu</span>
+            <p>Hãy cùng chúng tôi tìm hiểu đôi nét về Bắc Ninh quê tôi nhé !</p>
+        </h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="./image/BN-1884.jpeg" alt="bacninh">
+                <div class="content">
+                    <h3>Lịch sử</h3>
+                    <p>Đôi nét về lịch sử quê hương chúng tôi</p>
+                    <a href="./history.html" class="btn">Xem Thêm</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./image/thiennhien.jpeg" alt="thiennhien">
+                <div class="content">
+                    <h3>Thiên Nhiên</h3>
+                    <p>Tuy diện tích nhỏ bé nhưng Bắc Ninh cũng có những cảnh đẹp thiên nhiên cho riêng mình</p>
+                    <a href="./nature.html" class="btn">Xem thêm</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./image/cnkb.jpeg" alt="connguoi">
+                <div class="content">
+                    <h3>Con Người</h3>
+                    <p>Nổi tiếng là miền đất quan họ con người Bắc Ninh cũng có nét truyền thống của riêng mình</p>
+                    <a href="./human.html" class="btn">Xem Thêm</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end gallery -->
+
+    <!-- packages -->
+
+    <section class="packages" id="packages">
+        <h1 class="heading">
+            <span>Địa</span>
+            <span> Danh</span>
+            <p>Một số địa điểm du lịch nổi tiếng ở Bắc Ninh bạn nên đến khi tới Bắc Ninh !</p>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="./image/phattich.jpeg" alt="phattich">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i>Phật tích</h3>
+                    <p>Chùa Phật tích nằm tại huyện Tiên Du-Bắc Ninh là một ngôi chùa lâu đời có bức tượng phật bằng đá
+                        lớn nhất Việt Nam</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <a href="#" class="btn">Xem Ngay</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./image/nhatho.jpeg" alt="nhatho">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i>Nhà thờ chính tòa Bắc Ninh</h3>
+                    <p>với tước hiệu Nhà thờ " Nữ vương Rất Thánh Mân Côi " là nhà thờ chính tòa của giáo phận Bắc Ninh
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <a href="#" class="btn">Xem Ngay</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./image/thienthai.jpeg" alt="thienthai">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Núi Thiên Thai</h3>
+                    <p>Thiên Thai có hình con rồng uốn lượn 9 khúc (dãy núi này gồm 9 ngọn núi liền nhau). Đây là nơi đã
+                        sinh ra vị danh nhân đất nước đó là : Thái Sư Lê Văn Thịnh</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <a href="#" class="btn">Xem Ngay</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./image/chuadam.jpeg" alt="chuadam">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i>Chùa Dạm</h3>
+                    <p>Chùa Dạm hay còn có tên khác là Đại Lãm Thần Quang Tự chùa Trăm Gian (vì ngày xưa chùa có 100
+                        gian), cũng được gọi là chùa Lãm Sơn</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <a href="#" class="btn">Xem Ngay</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./image/vanmieu.jpeg" alt="vanmieu">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i>Văn miếu Bắc Ninh</h3>
+                    <p>Là một trong 6 văn miếu của Việt Nam. Tại đây thờ Khổng tử, và 12 bia "Kim bảng lưu phương" lưu
+                        danh 677 vị đại khoa quê hương Kinh Bắc </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <a href="#" class="btn">Xem Ngay</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./image/vuonco.jpeg" alt="vuonco">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Vườn Cò Đông Xuyên</h3>
+                    <p>"Quê hương Đông Xuyên nơi đất lành chim đậu. Mảnh đất gìn giữ những giá trị văn hóa, lịch sử cây
+                        đa, bến nước, sân đình</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">Xem Ngay</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end packages -->
+    <!-- festival -->
+    <section class="festival" id="festival">
+        <h1 class="heading">
+            <span>lễ</span>
+            <span>Hội</span>
+            <p>Một đặc trung không thể thiếu ở Bắc Ninh chính là các lễ hội
+            </p>
+            <p>dưới đây là hai lễ hội khá nổi tiếng ở quê mình !</p>
+        </h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="./image/brand/hoilim.jpeg" alt="hoilim">
+                <div class="content">
+                    <h3>Hội Lim-Tiên Du</h3>
+                    <p>Hội tả lại quang cảnh làng quê khi xưa khi đó các cặp đôi
+                    </p>
+                    <p> tìm nhau qua những làn điệu quan họ đậm chữ tình !</p>
+                    <a href="#" class="btn">Xem Ngay</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./image/brand/hoipt.jpeg" alt="hoipt">
+                <div class="content">
+                    <h3>Phật Tích-Tiên Du</h3>
+                    <p>Là nơi thu hút rất nhiều khách thập phương về lễ mỗi khi</p>
+                    <p>ra tết hay khai mở đầu xuân rất chi là náo nhiệt !</p>
+                    <a href="#" class="btn">Xem Ngay</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- end festival -->
+
+    <!-- cuisine -->
+
+    <section class="cuisine" id="cuisine">
+        <h1 class="heading">
+            <span>Món</span>
+            <span>Ngon</span>
+            <p>Khi tới bất cứ đâu cũng chúng ta cũng cần phải thưởng thức</p>
+            <p>một chút văn hoá ẩm thầm của địa phương đó phải không nào !</p>
+        </h1>
+        <div class="box-container">
+
+            <div class="box">
+                <img src="./image/pic/banhte.jpeg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-utensils"></i>Bánh tẻ làng Chờ</h3>
+                    <p>
+                        Bánh được làm từ bột gạo tẻ, gói ngoài bằng lá dong. Bánh có lớp vỏ ngoài dẻo dẻo, dai dai, mềm
+                        ngon mà không quá nhão. Một chiếc bánh nóng hổi sẽ làm siêu lòng bất cứ vị khách nào.
+                    </p>
+                    <h5><i class="fas fa-money-bill-wave"></i>50.000 - 60.000 đồng/ chục</h5>
+                    <a href="#" class="btn">Đặt hàng</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./image/pic/banhphuthe.jpeg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-utensils"></i> Bánh Phu Thê Đình Bảng</h3>
+                    <p>
+                        Loại bánh này thường được dùng trong các dịp lễ tết và đặc biệt là cưới hỏi. Có vị ngọt
+                        và đặc biệt bởi cái dẻo của nếp cộng thêm nhân bánh đa dạng: cùi dừa, đu đủ, hạt sen, đậu
+                        xanh,...
+                    </p>
+                    <h5><i class="fas fa-money-bill-wave"></i> 30.000 - 40.000 đồng/cặp</h5>
+                    <a href="#" class="btn">Đặt hàng</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./image/pic/banhda.jpeg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-utensils"></i> Bánh đa Kế</h3>
+                    <p>
+                        Những chiếc bánh đa to tròn vàng bóng, vị bùi và thơm mùi lạc, vừng,… đã trở thành món quà không
+                        thể thiếu đối với du khách đến thăm hoặc chỉ ghé qua Bắc Ninh một lần.
+                    </p>
+                    <h5><i class="fas fa-money-bill-wave"></i>5.000 - 10.000 đồng/ 1 cái</h5>
+                    <a href="#" class="btn">Đặt hàng</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end cuisine -->
+
+    <!-- tour -->
+    <section class="tour" id="tour">
+        <h1 class="heading">
+            <span>Đặt</span>
+            <span>Tour</span>
+            <p>Chúng tớ cũng hỗ trợ đặt tour và tư vấn du lịch Băc Ninh</p>
+            <p>nếu bạn có ý định du lịch hãy đăng ký ngay để chúng tớ tư vấn nhé !</p>
+            <a href="./tour.html">Đặt tour và nhận tư vấn qua link này nhé ! </a>
+
+        </h1>
+    </section>
+    <!-- end tour -->
+
+    <!-- services -->
+    <section class="services" id="services">
+        <h1 class="heading">
+            <span>Dịch</span>
+            <span> Vụ</span>
+            <p>Khi đi du lịch bạn cũng quan tâm đến các dịch vụ tại các địa phương đó phải không
+            </p>
+            <p> dưới đây là các thông tin để các bạn tham khảo nhé !</p>
+        </h1>
+
+
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>Nơi Nghỉ Chân</h3>
+                <p><a href="#">Một số địa điểm nhà nghỉ khách sạn để các bạn nghỉ chân mình đều ghi hết
+                        tại đây các bạn tham khảo nhé !</a></p>
+            </div>
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>Nhà hàng, quán ăn</h3>
+                <p><a href="#">Không thể thiếu trong mỗi chuyến du lịch đó chính là ẩm thực tại địa phương ấy cùng mình
+                        đi ăn hết
+                        đặc sản Băc Ninh nhé !</a></p>
+            </div>
+            <div class="box">
+                <i class="fas fa-user-shield"></i>
+                <h3>Chú ý an toàn</h3>
+                <p><a href="#">Một số chú ý vô cùng quan trọng để chuyến đi của các bạn an toàn và vui vẻ hơn nha !</a>
+                </p>
+            </div>
+            <div class="box">
+                <i class="fas fa-motorcycle"></i>
+                <h3>Vòng quanh bắc Ninh</h3>
+                <p><a href="#">Nếu bạn là một dân phượt đích thực thì những địa điểm sau đương nhiên không thể bỏ qua
+                        khi tới Bắc
+                        Ninh rồi !</a></p>
+            </div>
+            <div class="box">
+                <i class="fas fa-bus"></i>
+                <h3>Phương tiện công cộng</h3>
+                <p><a href="#">Nếu bạn muốn du lịch một cách an toàn thì mình xin giới thiệu một số phương tiện di
+                        chuyển công cộng
+                        tại Bắc Ninh nhé !</a></p>
+            </div>
+            <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>Hành trình</h3>
+                <p><a href="#">Tuy hơi thừa nhưng mình xin giới thiệu hành trình tham quan để đi hết Bắc Ninh mình để
+                        không bỏ lỡ
+                        bất cứ cảnh đẹp nào nhé !</a></p>
+            </div>
+        </div>
+
+
+    </section>
+    <!-- end services -->
+
+    <!-- review -->
+    <section class="review" id="review">
+
+        <h1 class="heading">
+            <span>Đánh giá</span>
+            <span>Và</span>
+            <span>Nhận xét</span>
+            <p>Một số đánh giá và nhận xét của một số bạn khi tới du lịch Bắc Ninh chúng tớ !</p>
+        </h1>
+
+
+        <div class="swiper-container review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="./image/pic/pic1.jpeg" alt="">
+                        <h3>Thu Ngân</h3>
+                        <p>Bắc Ninh cũng khá thú vị đấy. Quả là 1 buổi đi chơi đáng quý biết thêm về nhiều nét văn hoá
+                            hơn, mọi người có thể đi thử nhé không lãng phí đâu</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="./image/pic/pic4.jpeg" alt="">
+                        <h3>Minh Trí</h3>
+                        <p>Đôi lúc có gặp chút phiền phức do đường xá dang xây dựng dở dang làm cuộc hành trình phượt
+                            của mình gặp chút khó khăn nhưng nói chung là vui đấy </p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="./image/pic/pic2.jpeg" alt="">
+                        <h3>Nguyệt Peo</h3>
+                        <p>Đôi lúc mình thấy nhiều dịch vụ chưa tốt lắm ấy nếu được các bạn nên cải thiện thêm về phần
+                            lịch trình thi thoảng thay đổi quá khiến minh ko nắm được lịch trình rất bất tiện</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="./image/pic/pic5.jpeg" alt="">
+                        <h3>Vũ Đăng</h3>
+                        <p>Mình không có phàn nàn gì cả món ăn ngon, lễ hội vui nhộn đặc sắc nếu có dịp mình sẽ quay lại
+                            nơi đây! hẹn một dịp không xa Tạm biệt Bắc Ninh và hẹn gặp lại</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="./image/pic/pic3.jpeg" alt="">
+                        <h3>katy Lâm</h3>
+                        <p>Con người nơi đây khá mến khách đồng quê mang đậm bản sắc Việt Nam, mình là dân thành phố thi
+                            thoảng đi trải nghiệm như này thấy khá bổ ích</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="./image/pic/pic6.jpeg" alt="">
+                        <h3>Nam Võ</h3>
+                        <p>Cảnh sát Bắc Ninh thi thoảng khó chịu ghê sơ hở cái dễ bị túm lắm các bạn nên cân thận tránh
+                            mất tiền oan nha nên mang đầy đủ giấy tờ nha</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- end review -->
+    <!-- contact -->
+    <section class="contact" id="contact">
+        <h1 class="heading">
+            <span>Nhận xét</span>
+            <span>của bạn</span>
+            <p>Chúng tớ rất mong nhận được nhận xét của bạn về trang du lịch Bắc Ninh !</p>
+            <p>Mong các bạn đóng góp thêm ý kiến để chúng mình ngày càng hoàn thiện và phát triển hơn nữa !
+            </p>
+        </h1>
+        <div class="row">
+            <div class="image">
+                <img src="./image/contact.jpeg" alt="contact">
+            </div>
+            <form action="#">
+                <div class="inputBox">
+                    <input type="text" placeholder="Tên của bạn...">
+                    <input type="email" placeholder="Địa chỉ email...">
+                </div>
+                <div class="inputBox">
+                    <input type="text" placeholder="Vấn đề bạn thấy cần cải thiện...">
+                    <input type="text" placeholder="Số điện thoại...">
+                </div>
+                <textarea placeholder="Lời nhắn ..." name="#" id="#" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="Gửi tin nhắn">
+            </form>
+        </div>
+
+
+    </section>
+    <!-- end contact -->
+    <!-- brand -->
+    <section class="brand-container">
+        <div class="swiper-container brand-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./image/brand/1.jpeg" alt="#"></div>
+                <div class="swiper-slide"><img src="./image/brand/7.jpeg" alt="#"></div>
+                <div class="swiper-slide"><img src="./image/brand/3.png" alt="#"></div>
+                <div class="swiper-slide"><img src="./image/brand/8.jpeg" alt="#"></div>
+                <div class="swiper-slide"><img src="./image/brand/9.jpeg" alt="#"></div>
+                <div class="swiper-slide"><img src="./image/brand/6.jpeg" alt="#"></div>
+            </div>
+        </div>
+    </section>
+    <!-- end brand -->
+
+    <!-- footer -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Về chúng tôi</h3>
+                <p>Chúng tôi luôn cố gắng để mang tới</p>
+                <p> những dịch vụ tốt nhất cho du khách </p>
+                <p>bằng sự tận tâm và nhiệt huyết !</p>
+
+            </div>
+            <div class="box">
+                <h3>Nhà tài trợ</h3>
+                <a href="#">Phở king</a>
+                <a href="#">lote càfe</a>
+                <a href="#">rice Viet</a>
+            </div>
+            <div class="box">
+                <h3>Theo dõi trên</h3>
+                <a href="#"><i class="fab fa-facebook"></i>facebook</a>
+                <a href="#"><i class="fab fa-instagram"></i>instagram</a>
+                <a href="#"><i class="fab fa-tiktok"></i>ticktok</a>
+            </div>
+        </div>
+        <h1 class="credit"> created by <span> Mr. Ninh</span> | all rights reserved! </h1>
+
+    </section>
+    <!-- end footer -->
+
+
+
+    <!-- swipper js -->
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- animation js -->
+
+    <script src="./css/animation.js"></script>
+</body>
+
+</html>

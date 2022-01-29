@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+
+:root {
+    --primary-color: #D18936;
+    --text-color1: #F3F3DA;
+    --text-color2: #444;
+    --body-color: rgb(255, 249, 249);
+}
+
+* {
+    font-family: 'Roboto', sans-serif;  
+    /* font-family: 'Sedgwick Ave', cursive; chữ in nghiêng */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+
+*::selection {
+    background: var(--body-color);
+    color: var(--body-color);
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 6rem;
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 2rem 9%;
+}
+
+/* heading-font */
+.heading {
+    text-align: center;
+    padding: 2.5rem 0
+}
+
+.heading span {
+    font-family: 'Sedgwick Ave', cursive;
+    font-size: 3.5rem;
+    background: rgba(228, 205, 169, 0.2);
+    color: var(--primary-color);
+    border-radius: 50%;
+    padding: .5rem 1rem;
+    text-transform: uppercase;
+    opacity: .8;
+}
+.heading p{
+    color: var(--text-color2);
+    font-size: 2rem;
+    padding: 2rem 0;
+    font-style: italic;
+    font-weight: 300;
+    text-transform: none;
+}
+
+.heading span.space {
+    background: none;
+}
+
+/* end header-font */
+
+/* button-css */
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    background: var(--primary-color);
+    color: #fff;
+    padding: .8rem 3rem;
+    border: .2rem solid var(--primary-color);
+    cursor: pointer;
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    overflow: hidden;
+}
+
+.btn:hover {
+    background: rgba(255, 165, 0, .2);
+    color: var(--primary-color);
+}
+
+/* end button */
