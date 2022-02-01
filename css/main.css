@@ -5,25 +5,31 @@
     border: .1rem solid #fff;
     border-radius: 1rem;
     font-size: 3rem;
-    padding: .5rem 1.2rem;
     cursor: pointer;
     display: none;
+    padding: .5rem 1rem;
 }
 
 /* end responsive */
 
 
-header {
+header  {
+    width: 100%;
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
     background-color: #171614;
     z-index: 10;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     padding: 2rem 9%;
+}
+
+.grid {
+    width: 120rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
 }
 
 header .logo img {
@@ -31,7 +37,6 @@ header .logo img {
     height: 60px;
     text-decoration: none;
     object-fit: cover;
-    object-position: cover;
 }
 
 header .navbar a {
@@ -69,13 +74,13 @@ header .search-bar-container {
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
 }
 
-header .search-bar-container.active {
+.header .search-bar-container.active {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
 /* search-bar display*/
 
-header .search-bar-container #search-bar {
+.header .search-bar-container #search-bar {
     width: 100%;
     padding: 1rem;
     text-transform: none;
@@ -232,7 +237,8 @@ header .search-bar-container label:hover {
     width: 100%;
     object-fit: cover;
 }
-.home .video-container img{
+
+.home .video-container img {
     object-fit: cover;
     object-position: cover;
 }
@@ -323,6 +329,7 @@ header .search-bar-container label:hover {
     flex-wrap: wrap;
     gap: 2rem;
 }
+
 .cuisine .box-container .box,
 .packages .box-container .box {
     flex: 1 1 30rem;
@@ -332,28 +339,32 @@ header .search-bar-container label:hover {
     box-shadow: 0 1rem 2rem rgba(122, 119, 119, 0.3);
     cursor: pointer;
 }
+
 .cuisine .box-container .box img,
 .packages .box-container .box img {
     height: 25rem;
     width: 100%;
     object-fit: cover;
 }
+
 .cuisine .box-container .box .content,
 .packages .box-container .box .content {
     padding: 2rem;
 }
 
-.cuisine .box-container .box .content h3, 
+.cuisine .box-container .box .content h3,
 .packages .box-container .box .content h3 {
     font-size: 2rem;
     color: var(--text-color2);
 }
-.cuisine .box-container .box .content h3 i, 
+
+.cuisine .box-container .box .content h3 i,
 .packages .box-container .box .content h3 i {
     color: var(--primary-color);
     padding-right: 1rem;
 }
-.cuisine .box-container .box .content p, 
+
+.cuisine .box-container .box .content p,
 .packages .box-container .box .content p {
     font-size: 1.4rem;
     color: var(--text-color2);
@@ -429,20 +440,21 @@ header .search-bar-container label:hover {
 
 /* cuisine */
 
-.cuisine .box-container .box .content h5{
+.cuisine .box-container .box .content h5 {
     font-size: 1.5rem;
     color: var(--text-color2);
-} 
-.cuisine .box-container .box .content h5 i{
+}
+
+.cuisine .box-container .box .content h5 i {
     color: var(--primary-color);
     padding-right: 1rem;
-} 
+}
 
 
 
 /* end cuisine */
 /* tour */
-.tour h1{
+.tour h1 {
     background-image: linear-gradient(to top right, rgba(183, 183, 235, 0.2), rgba(196, 177, 177, 0));
 }
 
@@ -454,7 +466,8 @@ header .search-bar-container label:hover {
     text-transform: none;
     padding-top: 1rem;
 }
-.tour .heading a:hover{
+
+.tour .heading a:hover {
     color: var(--primary-color);
 }
 
@@ -488,7 +501,7 @@ header .search-bar-container label:hover {
     color: var(--text-color2);
 }
 
-.services .box-container .box p  a{
+.services .box-container .box p a {
     font-size: 1.5rem;
     color: var(--text-color2);
     padding: 1rem 0;
